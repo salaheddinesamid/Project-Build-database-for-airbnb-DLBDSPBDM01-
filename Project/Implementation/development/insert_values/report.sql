@@ -1,0 +1,22 @@
+INSERT INTO Report (ReportID, ReporterID, ListingID, ReportReason, ReportDate, ReportStatus)
+VALUES
+    (1, 1, 1, 'Noise disturbance', '2024-07-01', 'Pending'),
+    (2, 2, 2, 'Unclean property', '2024-07-02', 'Reviewed'),
+    (3, 3, 3, 'Unauthorized pets', '2024-07-03', 'Resolved'),
+    (4, 4, 4, 'Broken amenities', '2024-07-04', 'Pending'),
+    (5, 5, 5, 'Inaccurate listing', '2024-07-05', 'Pending'),
+    (6, 1, 6, 'Unresponsive host', '2024-07-06', 'Reviewed'),
+    (7, 2, 7, 'Unauthorized guests', '2024-07-07', 'Resolved'),
+    (8, 3, 8, 'Property damage', '2024-07-08', 'Pending'),
+    (9, 4, 9, 'Late check-in', '2024-07-09', 'Reviewed'),
+    (10, 5, 10, 'Inaccurate photos', '2024-07-10', 'Pending'),
+    (11, 1, 11, 'Unclean linens', '2024-07-11', 'Reviewed'),
+    (12, 2, 12, 'Noisy neighbors', '2024-07-12', 'Resolved'),
+    (13, 3, 13, 'Faulty locks', '2024-07-13', 'Pending'),
+    (14, 4, 14, 'Overbooked property', '2024-07-14', 'Reviewed'),
+    (15, 5, 15, 'Host canceled booking', '2024-07-15', 'Pending'),
+    (16, 1, 16, 'Water leakage', '2024-07-16', 'Reviewed'),
+    (17, 2, 17, 'Unsanitary conditions', '2024-07-17', 'Resolved'),
+    (18, 3, 18, 'Misleading reviews', '2024-07-18', 'Pending'),
+    (19, 4, 19, 'Poor customer service', '2024-07-19', 'Reviewed'),
+    (20, 5, 20, 'Fraudulent activity', '2024-07-20', 'Resolved');

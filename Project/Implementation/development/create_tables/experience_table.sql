@@ -1,5 +1,6 @@
-CREATE TABLE Airbnb."Experience"(
+CREATE TABLE Experience(
     experienceID INTEGER NOT NULL PRIMARY KEY,
-    hostID INTEGER FOREIGN KEY REFERENCES Airbnb."Host",
-    rating VARCHAR(200)
+    hostID INTEGER,
+    rating VARCHAR(200),
+    FOREIGN KEY(hostID) REFERENCES Host(hostID)
 );

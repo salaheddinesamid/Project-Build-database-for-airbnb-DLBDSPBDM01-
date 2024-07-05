@@ -1,5 +1,6 @@
-CREATE TABLE Airbnb."Tax"(
+CREATE TABLE Tax(
     TaxID INTEGER NOT NULL PRIMARY KEY,
-    BookingID INTEGER FOREIGN KEY REFERENCES Airbnb."Booking",
-    Amount FLOAT
+    BookingID INTEGER,
+    Amount FLOAT,
+    FOREIGN KEY(BookingID) REFERENCES Booking(BookingID)
 );

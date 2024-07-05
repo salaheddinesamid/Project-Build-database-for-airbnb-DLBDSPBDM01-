@@ -1,8 +1,10 @@
-CREATE TABLE Airbnb."Report"(
+CREATE TABLE Report (
     ReportID INTEGER NOT NULL PRIMARY KEY,
-    ReporterID INTEGER FOREIGN KEY REFERENCES Airbnb."User",
-    ListingID INTEGER FOREIGN KEY REFERENCES Airbnb."Listing",
+    ReporterID INTEGER,
+    ListingID INTEGER,
     ReportReason VARCHAR(200),
     ReportDate DATE,
-    ReportStatus VARCHAR(200)
+    ReportStatus VARCHAR(200),
+    FOREIGN KEY (ReporterID) REFERENCES User(UserID),
+    FOREIGN KEY (ListingID) REFERENCES Listing(ListingID)
 );

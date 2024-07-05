@@ -1,4 +1,4 @@
-CREATE TABLE Airbnb.Transaction (
+CREATE TABLE Transaction (
     TransactionID INTEGER NOT NULL PRIMARY KEY,
     UserID INTEGER,
     BookingID INTEGER,
