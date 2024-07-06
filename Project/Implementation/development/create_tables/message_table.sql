@@ -1,8 +1,8 @@
-CREATE TABLE Airbnb.Message (
+CREATE TABLE Message (
     messageID INTEGER NOT NULL PRIMARY KEY,
     senderID INTEGER,
     receiverID INTEGER,
     content VARCHAR(200),
-    FOREIGN KEY (senderID) REFERENCES User (UserID),
-    FOREIGN KEY (receiverID) REFERENCES User (UserID)
+    CONSTRAINT sender_fk FOREIGN KEY (senderID) REFERENCES sender (senderID),
+    CONSTRAINT receiver_fk FOREIGN KEY (receiverID) REFERENCES receiver (receiverID)
 );

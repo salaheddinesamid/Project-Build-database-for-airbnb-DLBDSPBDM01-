@@ -5,4 +5,4 @@ CREATE TABLE User(
     Phone VARCHAR(100),
     ProfilePicture VARCHAR(250),
     VerifiedStatus BOOLEAN
-    )
+    );
