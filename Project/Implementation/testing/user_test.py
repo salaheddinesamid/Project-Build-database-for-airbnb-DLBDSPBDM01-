@@ -33,5 +33,15 @@ class TestSQLQueries(unittest.TestCase):
         self.assertEqual(result, expected)
         conn.close()
 
+    def test_count(self):
+        conn = pymysql.connect(host='localhost', user='root', password='samidsamid', db='airbnb')
+        cursor = conn.cursor()
+        cursor.execute("SELECT * FROM user;")
+        result = cursor.fetchall().__len__()
+        self.assertEqual(result, 20)
+        conn.close()
+
+
+        
 if __name__ == '__main__':
     unittest.main()
