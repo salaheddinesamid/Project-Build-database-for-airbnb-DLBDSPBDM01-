@@ -1,4 +1,4 @@
-INSERT INTO User (UserID, Name, Email, Phone, ProfilePicture, VerifiedStatus) VALUES
+INSERT INTO User (UserID, Name, Email, Phone, profile_picture, verified_status) VALUES
     (1, 'Alice Smith', 'alice.smith@example.com', '123-456-7890', 'https://example.com/profiles/alice.jpg', TRUE),
     (2, 'Bob Johnson', 'bob.johnson@example.com', '098-765-4321', 'https://example.com/profiles/bob.jpg', FALSE),
     (3, 'Charlie Brown', 'charlie.brown@example.com', '555-555-5555', 'https://example.com/profiles/charlie.jpg', TRUE),
