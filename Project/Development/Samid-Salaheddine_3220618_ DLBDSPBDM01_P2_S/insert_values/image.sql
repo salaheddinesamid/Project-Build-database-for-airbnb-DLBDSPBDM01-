@@ -1,0 +1,22 @@
+INSERT INTO Image (imageID, image_url, mediaType)
+VALUES
+    (1, 'https://example.com/images/image1.jpg', 'JPEG'),
+    (2, 'https://example.com/images/image2.png', 'PNG'),
+    (3, 'https://example.com/images/image3.gif', 'GIF'),
+    (4, 'https://example.com/images/image4.bmp', 'BMP'),
+    (5, 'https://example.com/images/image5.webp', 'WEBP'),
+    (6, 'https://example.com/images/image6.tiff', 'TIFF'),
+    (7, 'https://example.com/images/image7.svg', 'SVG'),
+    (8, 'https://example.com/images/image8.jpg', 'JPEG'),
+    (9, 'https://example.com/images/image9.png', 'PNG'),
+    (10, 'https://example.com/images/image10.gif', 'GIF'),
+    (11, 'https://example.com/images/image11.bmp', 'BMP'),
+    (12, 'https://example.com/images/image12.webp', 'WEBP'),
+    (13, 'https://example.com/images/image13.tiff', 'TIFF'),
+    (14, 'https://example.com/images/image14.svg', 'SVG'),
+    (15, 'https://example.com/images/image15.jpg', 'JPEG'),
+    (16, 'https://example.com/images/image16.png', 'PNG'),
+    (17, 'https://example.com/images/image17.gif', 'GIF'),
+    (18, 'https://example.com/images/image18.bmp', 'BMP'),
+    (19, 'https://example.com/images/image19.webp', 'WEBP'),
+    (20, 'https://example.com/images/image20.tiff', 'TIFF');

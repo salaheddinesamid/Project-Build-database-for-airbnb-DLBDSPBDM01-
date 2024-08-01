@@ -1,0 +1,8 @@
+CREATE TABLE HOST (
+    HostID INTEGER NOT NULL PRIMARY KEY,
+    UserID INTEGER,
+    HostRating FLOAT,
+    FOREIGN KEY (UserID) REFERENCES User (UserID)
+);
+
+--DONE--

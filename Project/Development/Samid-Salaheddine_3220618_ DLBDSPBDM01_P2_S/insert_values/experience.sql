@@ -1,0 +1,22 @@
+INSERT INTO Experience (experienceID, hostID, rating)
+VALUES
+    (1, 1, '5 stars'),
+    (2, 2, '4 stars'),
+    (3, 3, '5 stars'),
+    (4, 4, '3 stars'),
+    (5, 5, '4.5 stars'),
+    (6, 1, '4 stars'),
+    (7, 2, '3.5 stars'),
+    (8, 3, '5 stars'),
+    (9, 4, '4 stars'),
+    (10, 5, '5 stars'),
+    (11, 1, '4.5 stars'),
+    (12, 2, '4 stars'),
+    (13, 3, '3 stars'),
+    (14, 4, '5 stars'),
+    (15, 5, '4.5 stars'),
+    (16, 1, '3.5 stars'),
+    (17, 2, '5 stars'),
+    (18, 3, '4 stars'),
+    (19, 4, '4.5 stars'),
+    (20, 5, '5 stars');

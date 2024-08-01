@@ -1,0 +1,8 @@
+CREATE TABLE Guest(
+    guestID INTEGER NOT NULL PRIMARY KEY,
+    UserID INTEGER,
+    GuestRating FLOAT,
+    FOREIGN KEY(UserID) REFERENCES USER (UserID)
+);
+
+--DONE--
